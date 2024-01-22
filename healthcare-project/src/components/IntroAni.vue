@@ -13,7 +13,7 @@ export default {
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: require('@/assets/sample.json')
+        path: 'intro.json'
       });
     } catch (error) {
       console.error('Lottie 로딩 중 오류 발생:', error);
@@ -30,7 +30,7 @@ h3 {
 #lottie-container {
   width: 500px;
   height: 500px;
-  background-color: #ffff00;
+  background-color: #F2F6FF;
 }
 
 </style>
